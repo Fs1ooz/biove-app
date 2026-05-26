@@ -21678,7 +21678,7 @@ if(a.as!==q)return q?-1:1
 return 0},
 aJw(a,b){var s=A.X(b).h("a3<1,dw>")
 s=A.Y(new A.a3(b,new A.a2n(),s),s.h("aw.E"))
-return A.aIU(!0,s,a,B.KE,!0,B.FJ,null)},
+return A.aIU(!0,s,a,B.KD,!0,B.FJ,null)},
 auW(a){var s
 try{a.du()}catch(s){a.MZ()}a.w=B.ZR
 try{a.bd(A.aRX())}catch(s){}},
@@ -22235,7 +22235,7 @@ _.as=!0
 _.at=!1
 _.$ti=d},
 L3(a,b){var s
-if(a.j(0,b))return new A.IN(B.KF)
+if(a.j(0,b))return new A.IN(B.KE)
 s=A.b([],t.fJ)
 A.bM()
 a.n5(new A.a5o(b,A.aE(t.u),s))
@@ -28192,7 +28192,7 @@ Jp(){var s=this.Q
 s===$&&A.a()
 return s},
 vF(a,b,c,d){var s,r,q,p
-if(a<0||b<0)return B.KA
+if(a<0||b<0)return B.Kz
 s=this.a
 s===$&&A.a()
 s=s.a
@@ -28211,7 +28211,7 @@ l.push(new A.f7(n[0],n[1],n[2],n[3],B.kH[m]))}return l},
 d4(a){var s,r,q=this.a
 q===$&&A.a()
 s=q.a.getGlyphPositionAtCoordinate(a.a,a.b)
-r=B.K5[J.ah(s.affinity.value)]
+r=B.K4[J.ah(s.affinity.value)]
 return new A.ae(J.ah(s.pos),r)},
 Js(a){var s=this.a
 s===$&&A.a()
@@ -28458,7 +28458,7 @@ j(a,b){if(b==null)return!1
 if(!(b instanceof A.y4))return!1
 return b.d===this.d&&b.b==this.b&&A.lJ(b.c,this.c)},
 gv(a){var s=this,r=s.c
-return A.J(s.d,s.a,s.b,A.bv(r==null?B.Ks:r),B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
+return A.J(s.d,s.a,s.b,A.bv(r==null?B.Kr:r),B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
 $ihf:1}
 A.rt.prototype={
 ob(a){var s,r=a.a,q=this.a
@@ -28550,7 +28550,7 @@ l(){},
 gmH(){return this.a}}
 A.a3i.prototype={
 gmi(){var s=this.b,r=s==null?null:s.canvasKitVariant
-return A.aJG(B.Kf,r==null?"auto":r)},
+return A.aJG(B.Ke,r==null?"auto":r)},
 gTy(){var s=this.b
 s=s==null?null:s.canvasKitForceCpuOnly
 return s==null?!1:s},
@@ -32942,7 +32942,7 @@ if(r.f!==B.ou){r.f=B.ou
 r.P9()}}return r.d.a.ZR(a)},
 P9(){var s,r
 for(s=this.w,r=0;r<s.length;++r)s[r].$1(this.f)},
-ZO(a){if(B.b.u(B.Kn,a))return this.f===B.hw
+ZO(a){if(B.b.u(B.Km,a))return this.f===B.hw
 return!1}}
 A.a2Y.prototype={
 $0(){return new A.es(Date.now(),0,!1)},
@@ -39225,7 +39225,7 @@ if(s==null||s.length<a)s=this.c=new Uint8Array(a)
 return J.j0(B.R.gcc(s),s.byteOffset,a)}}
 A.ajw.prototype={
 C(a,b){this.CV(b,0,J.c9(b),!1)},
-aU(){this.CV(B.Kr,0,0,!0)}}
+aU(){this.CV(B.Kq,0,0,!0)}}
 A.ajj.prototype={
 CV(a,b,c,d){var s=this.b.UL(a,b,c,d)
 if(s!=null)this.a.C(0,A.BT(s,0,null))
@@ -41236,7 +41236,7 @@ this.c.aj(t.Pu).f.w3(A.avZ(s,s,s,a.w,s,B.L,s,A.bk(a.b+": +"+a.d+" punti!",s,s,s,
 aiU(){this.ah(new A.anK(this))
 this.c.aj(t.Pu).f.w3(B.S7)},
 J(a){var s,r=this,q=null,p=A.ay8(q,0,A.cK(q,B.r,q,B.BT,q,q,q,q),q,A.cu(B.JP,B.Q,B.t,B.x,0)),o=r.d
-o=A.azy(B.bj,A.b([new A.KA(r.e,r.f,r.r,r.w,r.x,r.y,r.gafI(),r.gaiT(),q),new A.Ah(B.K3,q),new A.MS(B.JI,q)],t.p),o)
+o=A.azy(B.bj,A.b([new A.KA(r.e,r.f,r.r,r.w,r.x,r.y,r.gafI(),r.gaiT(),q),new A.Ah(B.KQ,q),new A.MS(B.JI,q)],t.p),o)
 s=r.d
 return A.aB4(p,B.js,o,new A.wR(B.JA,new A.anM(r),s,B.a1,B.l4,q))}}
 A.anJ.prototype={
@@ -41395,7 +41395,7 @@ A.aks.prototype={
 $0(){return this.a.f=!1},
 $S:0}
 A.Js.prototype={
-J(a){var s=null,r=B.Kd[B.i.bg(A.aby(new A.es(Date.now(),0,!1)),7)],q=A.c6(16),p=A.auu(B.eB),o=t.p
+J(a){var s=null,r=B.Kc[B.i.bg(A.aby(new A.es(Date.now(),0,!1)),7)],q=A.c6(16),p=A.auu(B.eB),o=t.p
 return A.cK(A.cu(A.b([B.XJ,B.c7,A.e9(A.dm(A.b([B.XX,B.fl,A.bk(r,s,s,s,B.Wu,s,s)],o),B.a2,B.t,B.x),1)],o),B.a2,B.t,B.x,0),B.r,s,new A.bO(B.jv,s,p,q,s,s,B.a0),s,s,B.jX,s)}}
 A.KZ.prototype={
 J(a){var s,r,q=this,p=null,o=q.c,n=o===0&&q.d===0&&q.e===0,m=A.c6(20)
@@ -46385,7 +46385,7 @@ n=o.e
 o=o.cx
 r=q.gacq()
 q.a.toString
-return new A.CQ(p,p,p,new A.anN(),p,p,p,p,p,n,B.MZ,p,p,p,B.Ku,q.gacD(),o,p,B.UJ,s,p,r,p,p,B.p1,!1,!1,p,p,p,new A.oG(q,t.bT))},
+return new A.CQ(p,p,p,new A.anN(),p,p,p,p,p,n,B.MZ,p,p,p,B.Kt,q.gacD(),o,p,B.UJ,s,p,r,p,p,B.p1,!1,!1,p,p,p,new A.oG(q,t.bT))},
 J(a){var s,r=null,q=A.mf(!1,!1,this.a4M(a),r,r,r,r,!0,r,r,r,new A.anO(),r,r)
 this.a.toString
 s=this.d
@@ -46695,7 +46695,7 @@ A.uR.prototype={
 G(){return"_CornerId."+this.b}}
 A.lm.prototype={}
 A.tk.prototype={
-l3(){var s,r,q,p=this,o=A.aQt(B.Kj,new A.a9o(p,p.b.gaP().N(0,p.a.gaP()))),n=p.a
+l3(){var s,r,q,p=this,o=A.aQt(B.Ki,new A.a9o(p,p.b.gaP().N(0,p.a.gaP()))),n=p.a
 n.toString
 s=o.a
 r=p.pj(n,s)
@@ -51317,7 +51317,7 @@ return s.b}}
 A.iV.prototype={
 G(){return"_ListTileSlot."+this.b}}
 A.T4.prototype={
-gKj(){return B.Kc},
+gKj(){return B.Kb},
 TC(a){var s,r=this
 switch(a.a){case 0:s=r.d
 break
@@ -51622,7 +51622,7 @@ r.e=s.a.a
 r.f=s.d},
 $S:0}
 A.LC.prototype={
-J(a){return A.aAS(new A.kh(B.EW,null,null),B.L,new A.tf(1,B.KL,new A.cd(B.Bu,B.q)),this.c.R(0,new A.f(0,40.95)),1.25,B.RQ)}}
+J(a){return A.aAS(new A.kh(B.EW,null,null),B.L,new A.tf(1,B.KK,new A.cd(B.Bu,B.q)),this.c.R(0,new A.f(0,40.95)),1.25,B.RQ)}}
 A.pa.prototype={
 G(){return"MaterialType."+this.b}}
 A.zp.prototype={
@@ -52001,7 +52001,7 @@ giF(){return A.aSL()},
 G1(a,b,c,d,e,f){return A.aIC(a,b,c,d,e,f)}}
 A.Mn.prototype={
 a4a(a){var s=t.Tr
-s=A.Y(new A.a3(B.Ki,new A.aaS(a),s),s.h("aw.E"))
+s=A.Y(new A.a3(B.Kh,new A.aaS(a),s),s.h("aw.E"))
 return s},
 j(a,b){if(b==null)return!1
 if(this===b)return!0
@@ -57181,7 +57181,7 @@ return new A.oH(r.a.d5(s.gig()),r.b,r.c)},
 d4(a){var s=this.b
 return s.a.c.d4(a.N(0,s.gig()))},
 q5(){var s,r,q=this.b,p=q.gig()
-if(!isFinite(p.a)||!isFinite(p.b))return B.KC
+if(!isFinite(p.a)||!isFinite(p.b))return B.KB
 s=q.f
 if(s==null){s=q.a.c.q5()
 q.f=s}if(p.j(0,B.f))r=s
@@ -66219,7 +66219,7 @@ break
 case 1:return A.N(q,r)}})
 return A.O($async$DR,r)},
 a7A(a,b){var s,r,q,p
-if(a===b)return B.Kz
+if(a===b)return B.Ky
 s=A.b([],t.QP)
 if(a==null)s.push(b)
 else{r=B.b.lp(B.eP,a)
@@ -68074,7 +68074,7 @@ A.kX.prototype={}
 A.MJ.prototype={
 lr(a,b){var s,r,q,p,o,n=$.a1.a6$.d.c
 if(n==null||n.e==null)return!1
-for(s=t.d,r=0;r<2;++r){q=B.Ko[r]
+for(s=t.d,r=0;r<2;++r){q=B.Kn[r]
 p=n.e
 p.toString
 o=A.auo(p,q,s)
@@ -70476,7 +70476,7 @@ h.Fx()
 r=h.ga8k()
 q=q.kl
 h.e!==$&&A.bg()
-h.e=new A.NX(s,new A.bD(B.Mz,l),new A.p1(),p,B.c9,0,k,h.gaaK(),h.gaaM(),r,B.c9,0,j,h.gaaE(),h.gaaG(),r,i,B.Kt,f,g.CW,g.cx,g.cy,o,g,n,m,g.x,q,new A.Jh(),new A.Jh())
+h.e=new A.NX(s,new A.bD(B.Mz,l),new A.p1(),p,B.c9,0,k,h.gaaK(),h.gaaM(),r,B.c9,0,j,h.gaaE(),h.gaaG(),r,i,B.Ks,f,g.CW,g.cx,g.cy,o,g,n,m,g.x,q,new A.Jh(),new A.Jh())
 return h},
 wE(a,b){var s,r,q,p=this,o=p.a.c,n=o.a.a.length
 if(n<a.b||n<a.a)return
@@ -73822,7 +73822,7 @@ j(a,b){var s=this
 if(b==null)return!1
 if(J.K(b)!==A.t(s))return!1
 return b instanceof A.bY&&b.a===s.a&&b.b==s.b&&b.d===s.d&&A.cf(null,null)},
-gv(a){return A.J(this.a,this.b,null,this.d,A.bv(B.KD),B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
+gv(a){return A.J(this.a,this.b,null,this.d,A.bv(B.KC),B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
 k(a){return"IconData(U+"+B.d.oy(B.i.n0(this.a,16).toUpperCase(),5,"0")+")"}}
 A.oM.prototype={
 cu(a){return!this.w.j(0,a.w)},
@@ -74755,7 +74755,7 @@ h=r&&e
 c=r?e:c.CW
 if(c==null)c=B.dO
 r=r&&e
-g=new A.zv(b,s,q,p,m,o,n,a,h===!0,a0,a1,i,d,l,k,j,c,new A.rB(e),B.Kx,r===!0)
+g=new A.zv(b,s,q,p,m,o,n,a,h===!0,a0,a1,i,d,l,k,j,c,new A.rB(e),B.Kw,r===!0)
 if(!g.j(0,f.e))f.ah(new A.ao4(f,g))},
 yU(){if(this.d==null)this.pN()},
 GK(){this.pN()},
@@ -75140,7 +75140,7 @@ r.S(0,s.XY(null,l))
 l.a.toString
 q=r.a
 p=0
-for(;!1;++p){o=B.Kv[p]
+for(;!1;++p){o=B.Ku[p]
 n=l.c
 n.toString
 m=new A.hv(o.Gw(n),null,!0,B.mo,B.bX,new A.qN(new ($.Zf())(B.bX)),B.bX)
@@ -75495,7 +75495,7 @@ J(a){var s,r,q=this,p=null,o=q.gaa6(),n=A.mh(a),m=q.bH$,l=q.d
 l===$&&A.a()
 s=q.a.ay
 if(l.gL()==null){r=q.gLp()
-r=J.mu(r.slice(0),A.X(r).c)}else r=B.Kw
+r=J.mu(r.slice(0),A.X(r).c)}else r=B.Kv
 return new A.oK(p,new A.cU(new A.aah(q,a),A.ta(B.bz,new A.I4(!1,A.av3(A.mf(!0,p,A.Pi(m,new A.tw(r,s,l)),p,p,p,q.y,!1,p,p,p,p,p,!0),n),p),o,q.gad0(),p,p,p,p,o),p,t.w3),p)}}
 A.aag.prototype={
 $1(a){var s=this.a.c
@@ -80522,7 +80522,7 @@ r.xV()
 return s.aV()},
 l(){var s,r,q,p,o=this
 for(s=o.b,r=s.length,q=o.gDT(),p=0;p<s.length;s.length===r||(0,A.z)(s),++p)s[p].I(q)
-o.b=B.Ky
+o.b=B.Kx
 o.y=!1
 o.cB()},
 dU(a,b){return a.mp(b)},
@@ -85244,7 +85244,7 @@ p.m(0,"x",B.c.k(r))
 q=b.b
 p.m(0,"y",B.c.k(q))
 p.m(0,"z",B.i.k(s))
-r=B.Kk[B.c.bg(r+q,3)]
+r=B.Kj[B.c.bg(r+q,3)]
 p.m(0,"s",r)
 r=c.dx
 r===$&&A.a()
@@ -85353,7 +85353,7 @@ d=k==null?null:A.YY().b
 c=null
 if(d!=null){c=d
 b1=c.asl()
-a7=B.Ka[A.aLN(b1)-1]
+a7=B.K9[A.aLN(b1)-1]
 b2=A.aby(b1)<=9?"0":""
 b3=B.i.k(A.aby(b1))
 b4=B.IJ[A.avI(b1)-1]
@@ -90363,9 +90363,9 @@ B.BR=new A.bO(null,null,B.BE,null,null,null,B.a0)
 B.nn=new A.w(0.25882352941176473,0,0,0,B.e)
 B.d3=new A.f(0,3)
 B.Cm=new A.bb(0,B.F,B.nn,B.d3,6)
-B.Kp=s([B.Cm],t.E)
+B.Ko=s([B.Cm],t.E)
 B.cf=new A.IE(1,"circle")
-B.BS=new A.bO(B.a1,null,null,null,B.Kp,null,B.cf)
+B.BS=new A.bO(B.a1,null,null,null,B.Ko,null,B.cf)
 B.EX=new A.w(1,0.9019607843137255,0.9568627450980393,0.9176470588235294,B.e)
 B.mM=new A.bO(B.EX,null,null,null,null,null,B.cf)
 B.cz=new A.Cu(0,"clamp")
@@ -90375,8 +90375,8 @@ B.Iy=new A.mA(B.fI,B.fH,B.cz,B.p7,null,null)
 B.BT=new A.bO(null,null,null,null,null,B.Iy,B.a0)
 B.f2=new A.f(0,2)
 B.C3=new A.bb(0,B.F,B.nn,B.f2,4)
-B.Kh=s([B.C3],t.E)
-B.BU=new A.bO(B.a1,null,null,null,B.Kh,null,B.cf)
+B.Kg=s([B.C3],t.E)
+B.BU=new A.bO(B.a1,null,null,null,B.Kg,null,B.cf)
 B.mN=new A.wW(0,"fill")
 B.BV=new A.wW(2,"cover")
 B.BW=new A.wW(6,"scaleDown")
@@ -90632,7 +90632,7 @@ B.DA=new A.aim()
 B.al=new A.aip()
 B.cL=new A.Po()
 B.e8=new A.Pr(0,0,0,0)
-B.Kx=s([],A.aq("B<a1b>"))
+B.Kw=s([],A.aq("B<a1b>"))
 B.a0e=new A.aiw()
 B.ep=new A.PS()
 B.ci=new A.PT()
@@ -91267,8 +91267,8 @@ B.HP=new A.jk(B.HF,!1,0,"png")
 B.HD=new A.kA(B.KV,B.HP,0,"png")
 B.KX=s([71,73,70,56,55,97],t.Z)
 B.HC=new A.kA(B.KX,B.hz,1,"gif87a")
-B.Kg=s([71,73,70,56,57,97],t.Z)
-B.HB=new A.kA(B.Kg,B.hz,2,"gif89a")
+B.Kf=s([71,73,70,56,57,97],t.Z)
+B.HB=new A.kA(B.Kf,B.hz,2,"gif89a")
 B.IH=s([255,216,255],t.Z)
 B.HG=new A.mm(2,"jpeg")
 B.HT=new A.jk(B.HG,!1,3,"jpeg")
@@ -91305,16 +91305,16 @@ B.iy=new A.la(5,"end")
 B.Ju=s([B.d9,B.e5,B.fq,B.fr,B.aY,B.iy],A.aq("B<la>"))
 B.JL=s([2,1.13276676],t.n)
 B.IL=s([2.18349805,1.20311921],t.n)
-B.KI=s([2.33888662,1.28698796],t.n)
-B.KK=s([2.48660575,1.36351941],t.n)
+B.KH=s([2.33888662,1.28698796],t.n)
+B.KJ=s([2.48660575,1.36351941],t.n)
 B.Jy=s([2.62226596,1.44717976],t.n)
 B.JE=s([2.7514899,1.53385819],t.n)
-B.Ke=s([3.36298265,1.98288283],t.n)
+B.Kd=s([3.36298265,1.98288283],t.n)
 B.JQ=s([4.08649929,2.23811846],t.n)
-B.K4=s([4.85481134,2.47563463],t.n)
+B.K3=s([4.85481134,2.47563463],t.n)
 B.JB=s([5.62945551,2.72948597],t.n)
 B.JN=s([6.43023796,2.98020421],t.n)
-B.p0=s([B.JL,B.IL,B.KI,B.KK,B.Jy,B.JE,B.Ke,B.JQ,B.K4,B.JB,B.JN],t.zg)
+B.p0=s([B.JL,B.IL,B.KH,B.KJ,B.Jy,B.JE,B.Kd,B.JQ,B.K3,B.JB,B.JN],t.zg)
 B.Jx=s([B.jd,B.je],A.aq("B<wE>"))
 B.oH=new A.eb(B.oA,null,null,null,null)
 B.BI=new A.r6(B.oH,B.oH,"Home")
@@ -91375,47 +91375,24 @@ B.K1=s([B.Cb],t.E)
 B.A3=new A.BX(0,"left")
 B.A4=new A.BX(1,"right")
 B.K2=s([B.A3,B.A4],A.aq("B<BX>"))
-B.Hc=new A.bY(58091,"MaterialIcons",!1)
-B.Iv=new A.dq(39.282993,16.6452085)
-B.P9=new A.ef("Consorzio Tutela Patate della Sila IGP","Consorzio / Patate della Sila IGP","Patata della Sila IGP; servizi e supporto ai produttori","Camigliatello Silano","8 km","CONSORZIO PRODUTTORI PATATE ASSOCIATI","Consorzio che coordina i produttori della Patata della Sila IGP.",B.Hc,B.Iv)
-B.ow=new A.bY(57443,"MaterialIcons",!1)
-B.oT=new A.dq(39.2559,16.7013)
-B.Pd=new A.ef("Cooperativa Sila Verde","Patate della Sila IGP","Patata della Sila IGP (Marabel, Agria)","San Giovanni in Fiore","2 km",null,"Azienda storica che coltiva variet\xe0 locali e IGP.",B.ow,B.oT)
-B.Iw=new A.dq(39.3626,16.4385)
-B.Pe=new A.ef("Azienda Agricola Rositi","Funghi della Sila","Funghi rositi e porcini freschi","Altopiano Silano","6 km",null,"Raccoglitori e trasformatori locali certificati.",B.oB,B.Iw)
-B.Hd=new A.bY(58256,"MaterialIcons",!1)
-B.Iq=new A.dq(39.258,16.7)
-B.Ph=new A.ef("Caseificio Silano","Formaggi della Tradizione","Caciocavallo Silano DOP, juncata, ricotta","San Giovanni in Fiore","5 km",null,"Lavorazione artigianale a km zero.",B.Hd,B.Iq)
-B.oy=new A.bY(57545,"MaterialIcons",!1)
-B.Ir=new A.dq(39.253,16.705)
-B.Pa=new A.ef("Forno della Pitta","Forni","Pane naturale e pitta 'mpigliata'","San Giovanni in Fiore","1 km",null,"Forno tradizionale con lievitazione naturale.",B.oy,B.Ir)
-B.Is=new A.dq(39.26,16.71)
-B.Pb=new A.ef("Api della Sila","Formaggi della Tradizione","Miele biologico locale","San Giovanni in Fiore","4 km",null,"Abbinamento km zero per formaggi freschi.",B.kD,B.Is)
-B.Iu=new A.dq(39.25,16.69)
-B.Pc=new A.ef("Orto di Lidia","Ortaggi e Erbe","Ortaggi biologici, erbe aromatiche","San Giovanni in Fiore","3 km",null,"Orto familiare con coltivazione biologica e attivit\xe0 didattiche.",B.cq,B.Iu)
-B.It=new A.dq(39.255,16.702)
-B.Pg=new A.ef("Forno Parmella","Forni","Pane artigianale e dolci tipici","San Giovanni in Fiore","2 km",null,"Forno locale specializzato in lievitazione naturale e ricette tradizionali.",B.oy,B.It)
-B.Ix=new A.dq(39.0681,16.7354)
-B.Pf=new A.ef("Azienda agricola Grancia del Vurdoj","Azienda Agricola","Prodotti locali","Caccuri (KR)","","88833 Caccuri KR","Azienda agricola situata a Caccuri, in provincia di Crotone.",B.ow,B.Ix)
-B.K3=s([B.P9,B.Pd,B.Pe,B.Ph,B.Pa,B.Pb,B.Pc,B.Pg,B.Pf],t.hw)
 B.ai=new A.C8(0,"upstream")
-B.K5=s([B.ai,B.j],A.aq("B<C8>"))
+B.K4=s([B.ai,B.j],A.aq("B<C8>"))
 B.aN=new A.Cc(0,"rtl")
 B.a8=new A.Cc(1,"ltr")
 B.kH=s([B.aN,B.a8],A.aq("B<Cc>"))
-B.Ka=s(["Mon","Tue","Wed","Thu","Fri","Sat","Sun"],t.s)
+B.K9=s(["Mon","Tue","Wed","Thu","Fri","Sat","Sun"],t.s)
 B.cC=new A.iV(0,"leading")
 B.bw=new A.iV(1,"title")
 B.cD=new A.iV(2,"subtitle")
 B.eg=new A.iV(3,"trailing")
-B.Kc=s([B.cC,B.bw,B.cD,B.eg],A.aq("B<iV>"))
-B.Kd=s(["La Patata della Sila IGP cresce a oltre 1.200 m di altitudine: meno pesticidi, pi\xf9 sapore.","Comprare al mercato locale riduce i trasporti e supporta le famiglie dell'altopiano silano.","I funghi della Sila sono raccolti a mano: ogni acquisto km zero fa la differenza.","Il pane di farina di patate \xe8 un'eccellenza silana che vale la pena riscoprire.","Con una spesa km zero risparmi in media 2,5 kg di CO\u2082 rispetto alla grande distribuzione.","I caciocavalli silani stagionati sono prodotti senza additivi: bont\xe0 e sostenibilit\xe0 unite.","Acquistare miele locale supporta gli apicoltori e protegge le api della Sila."],t.s)
+B.Kb=s([B.cC,B.bw,B.cD,B.eg],A.aq("B<iV>"))
+B.Kc=s(["La Patata della Sila IGP cresce a oltre 1.200 m di altitudine: meno pesticidi, pi\xf9 sapore.","Comprare al mercato locale riduce i trasporti e supporta le famiglie dell'altopiano silano.","I funghi della Sila sono raccolti a mano: ogni acquisto km zero fa la differenza.","Il pane di farina di patate \xe8 un'eccellenza silana che vale la pena riscoprire.","Con una spesa km zero risparmi in media 2,5 kg di CO\u2082 rispetto alla grande distribuzione.","I caciocavalli silani stagionati sono prodotti senza additivi: bont\xe0 e sostenibilit\xe0 unite.","Acquistare miele locale supporta gli apicoltori e protegge le api della Sila."],t.s)
 B.DN=new A.o6(0,"auto")
 B.DO=new A.o6(1,"full")
 B.DP=new A.o6(2,"chromium")
-B.Kf=s([B.DN,B.DO,B.DP,B.ck],A.aq("B<o6>"))
+B.Ke=s([B.DN,B.DO,B.DP,B.ck],A.aq("B<o6>"))
 B.bt=new A.f6(1,"fuchsia")
-B.Ki=s([B.ah,B.bt,B.K,B.bh,B.aH,B.bi],A.aq("B<f6>"))
+B.Kh=s([B.ah,B.bt,B.K,B.bh,B.aH,B.bi],A.aq("B<f6>"))
 B.AJ=new A.uR(0,"topLeft")
 B.AM=new A.uR(3,"bottomRight")
 B.ZN=new A.lm(B.AJ,B.AM)
@@ -91424,7 +91401,7 @@ B.AK=new A.uR(1,"topRight")
 B.AL=new A.uR(2,"bottomLeft")
 B.ZO=new A.lm(B.AK,B.AL)
 B.ZP=new A.lm(B.AL,B.AK)
-B.Kj=s([B.ZN,B.ZQ,B.ZO,B.ZP],A.aq("B<lm>"))
+B.Ki=s([B.ZN,B.ZQ,B.ZO,B.ZP],A.aq("B<lm>"))
 B.PM=new A.a8(0.01339448,0.05994973)
 B.PL=new A.a8(0.13664115,0.13592082)
 B.Py=new A.a8(0.24545546,0.14099516)
@@ -91440,32 +91417,32 @@ B.Pv=new A.a8(0.66416338,0.0734653)
 B.Ps=new A.a8(0.68675338,0.06974996)
 B.PI=new A.a8(0.70678034,0.06529512)
 B.p3=s([B.PM,B.PL,B.Py,B.PB,B.PK,B.Pp,B.Pw,B.Pz,B.Pu,B.PH,B.PP,B.Pv,B.Ps,B.PI],A.aq("B<+(G,G)>"))
-B.Kk=s(["a","b","c"],t.s)
-B.Kn=s(["click","scroll"],t.s)
+B.Kj=s(["a","b","c"],t.s)
+B.Km=s(["click","scroll"],t.s)
 B.CD=new A.lN()
 B.f9=new A.NO(1,"page")
 B.ic=new A.eg(B.aS,B.f9)
-B.Ko=s([B.CD,B.ic],A.aq("B<aP>"))
-B.Kz=s([],t.QP)
+B.Kn=s([B.CD,B.ic],A.aq("B<aP>"))
+B.Ky=s([],t.QP)
 B.p4=s([],A.aq("B<aTm>"))
-B.KE=s([],t.D)
-B.KF=s([],t.fJ)
-B.KC=s([],t.ER)
+B.KD=s([],t.D)
+B.KE=s([],t.fJ)
+B.KB=s([],t.ER)
 B.a0n=s([],t.ss)
-B.Ku=s([],t.tc)
+B.Kt=s([],t.tc)
 B.hF=s([],t.jl)
-B.Kw=s([],t.wi)
-B.Kv=s([],A.aq("B<aAw<@>>"))
+B.Kv=s([],t.wi)
+B.Ku=s([],A.aq("B<aAw<@>>"))
 B.kJ=s([],t.AO)
-B.Ky=s([],t.D1)
+B.Kx=s([],t.D1)
 B.kI=s([],t.QF)
-B.KA=s([],t.Lx)
-B.Kt=s([],t.fm)
+B.Kz=s([],t.Lx)
+B.Ks=s([],t.fm)
 B.a0o=s([],t.p)
-B.Ks=s([],t.n)
-B.Kr=s([],t.t)
+B.Kr=s([],t.n)
+B.Kq=s([],t.t)
 B.p5=s([],t.ee)
-B.KD=s([],t.XS)
+B.KC=s([],t.XS)
 B.kB=new A.hH(0)
 B.GX=new A.hH(1)
 B.oq=new A.hH(2)
@@ -91475,7 +91452,30 @@ B.GY=new A.hH(7)
 B.or=new A.hH(8)
 B.p6=s([B.kB,B.GX,B.oq,B.p,B.W,B.bK,B.ap,B.GY,B.or],A.aq("B<hH>"))
 B.C9=new A.bb(0.75,B.F,B.no,B.f2,1.5)
-B.KL=s([B.C9],t.E)
+B.KK=s([B.C9],t.E)
+B.Hc=new A.bY(58091,"MaterialIcons",!1)
+B.Iv=new A.dq(39.282993,16.6452085)
+B.P9=new A.ef("Consorzio Tutela Patate della Sila IGP","Consorzio / Patate della Sila IGP","Patata della Sila IGP; servizi e supporto ai produttori","Camigliatello Silano","8 km","CONSORZIO PRODUTTORI PATATE ASSOCIATI","Consorzio che coordina i produttori della Patata della Sila IGP.",B.Hc,B.Iv)
+B.ow=new A.bY(57443,"MaterialIcons",!1)
+B.oT=new A.dq(39.2559,16.7013)
+B.Pe=new A.ef("Cooperativa Sila Verde","Patate della Sila IGP","Patata della Sila IGP (Marabel, Agria)","San Giovanni in Fiore","2 km",null,"Azienda storica che coltiva variet\xe0 locali e IGP.",B.ow,B.oT)
+B.Iw=new A.dq(39.3626,16.4385)
+B.Pf=new A.ef("Azienda Agricola Rositi","Funghi della Sila","Funghi rositi e porcini freschi","Altopiano Silano","6 km",null,"Raccoglitori e trasformatori locali certificati.",B.oB,B.Iw)
+B.Hd=new A.bY(58256,"MaterialIcons",!1)
+B.Iq=new A.dq(39.258,16.7)
+B.Ph=new A.ef("Caseificio Silano","Formaggi della Tradizione","Caciocavallo Silano DOP, juncata, ricotta","San Giovanni in Fiore","5 km",null,"Lavorazione artigianale a km zero.",B.Hd,B.Iq)
+B.oy=new A.bY(57545,"MaterialIcons",!1)
+B.Ir=new A.dq(39.253,16.705)
+B.Pa=new A.ef("Forno della Pitta","Forni","Pane naturale e pitta 'mpigliata'","San Giovanni in Fiore","1 km",null,"Forno tradizionale con lievitazione naturale.",B.oy,B.Ir)
+B.Is=new A.dq(39.26,16.71)
+B.Pb=new A.ef("Api della Sila","Formaggi della Tradizione","Miele biologico locale","San Giovanni in Fiore","4 km",null,"Abbinamento km zero per formaggi freschi.",B.kD,B.Is)
+B.Iu=new A.dq(39.25,16.69)
+B.Pd=new A.ef("Orto di Lidia","Ortaggi e Erbe","Ortaggi biologici, erbe aromatiche","San Giovanni in Fiore","3 km",null,"Orto familiare con coltivazione biologica e attivit\xe0 didattiche.",B.cq,B.Iu)
+B.It=new A.dq(39.255,16.702)
+B.Pg=new A.ef("Forno Parmella","Forni","Pane artigianale e dolci tipici","San Giovanni in Fiore","2 km",null,"Forno locale specializzato in lievitazione naturale e ricette tradizionali.",B.oy,B.It)
+B.Ix=new A.dq(39.2241279,16.8030093)
+B.Pc=new A.ef("Azienda agricola Grancia del Vurdoj","Azienda Agricola","Prodotti locali","Caccuri (KR)","","88833 Caccuri KR","Azienda agricola situata a Caccuri, in provincia di Crotone.",B.ow,B.Ix)
+B.KQ=s([B.P9,B.Pe,B.Pf,B.Ph,B.Pa,B.Pb,B.Pd,B.Pg,B.Pc],t.hw)
 B.eP=s([B.cF,B.ce,B.fJ,B.fK,B.jc],t.QP)
 B.yX=new A.a8(0,0)
 B.Pn=new A.a8(0,1)
@@ -91547,7 +91547,7 @@ B.l1=new A.dz(9,"multiFingerGestureStart")
 B.MK=new A.p4(B.oT,12,5,18)
 B.Nx={in:0,iw:1,ji:2,jw:3,mo:4,aam:5,adp:6,aue:7,ayx:8,bgm:9,bjd:10,ccq:11,cjr:12,cka:13,cmk:14,coy:15,cqu:16,drh:17,drw:18,gav:19,gfx:20,ggn:21,gti:22,guv:23,hrr:24,ibi:25,ilw:26,jeg:27,kgc:28,kgh:29,koj:30,krm:31,ktr:32,kvs:33,kwq:34,kxe:35,kzj:36,kzt:37,lii:38,lmm:39,meg:40,mst:41,mwj:42,myt:43,nad:44,ncp:45,nnx:46,nts:47,oun:48,pcr:49,pmc:50,pmu:51,ppa:52,ppr:53,pry:54,puz:55,sca:56,skk:57,tdu:58,thc:59,thx:60,tie:61,tkk:62,tlw:63,tmp:64,tne:65,tnf:66,tsf:67,uok:68,xba:69,xia:70,xkh:71,xsj:72,ybd:73,yma:74,ymt:75,yos:76,yuu:77}
 B.bD=new A.bF(B.Nx,["id","he","yi","jv","ro","aas","dz","ktz","nun","bcg","drl","rki","mom","cmr","xch","pij","quh","khk","prs","dev","vaj","gvr","nyc","duz","jal","opa","gal","oyb","tdf","kml","kwv","bmf","dtp","gdj","yam","tvd","dtp","dtp","raq","rmx","cir","mry","vaj","mry","xny","kdz","ngv","pij","vaj","adx","huw","phr","bfy","lcq","prt","pub","hle","oyb","dtp","tpo","oyb","ras","twm","weo","tyj","kak","prs","taj","ema","cax","acn","waw","suj","rki","lrr","mtm","zom","yug"],t.li)
-B.KB=s([],t.E)
+B.KA=s([],t.E)
 B.bI=new A.w(0.2,0,0,0,B.e)
 B.C8=new A.bb(-1,B.F,B.bI,B.f2,1)
 B.bJ=new A.w(0.1411764705882353,0,0,0,B.e)
@@ -91562,7 +91562,7 @@ B.Jv=s([B.C6,B.Ci,B.C0],t.E)
 B.C_=new A.bb(-2,B.F,B.bI,B.d3,3)
 B.C2=new A.bb(0,B.F,B.bJ,B.d3,4)
 B.Ct=new A.bb(0,B.F,B.by,B.bO,8)
-B.KM=s([B.C_,B.C2,B.Ct],t.E)
+B.KL=s([B.C_,B.C2,B.Ct],t.E)
 B.C5=new A.bb(-1,B.F,B.bI,B.f2,4)
 B.Ce=new A.bb(0,B.F,B.bJ,B.lb,5)
 B.Ca=new A.bb(0,B.F,B.by,B.bO,10)
@@ -91600,7 +91600,7 @@ B.NI=new A.f(0,24)
 B.Co=new A.bb(3,B.F,B.bJ,B.NI,38)
 B.Cg=new A.bb(8,B.F,B.by,B.vl,46)
 B.K0=s([B.C4,B.Co,B.Cg],t.E)
-B.ML=new A.cC([0,B.KB,1,B.KW,2,B.Jv,3,B.KM,4,B.IK,6,B.JD,8,B.J6,9,B.Jl,12,B.JK,16,B.JJ,24,B.K0],A.aq("cC<l,R<bb>>"))
+B.ML=new A.cC([0,B.KA,1,B.KW,2,B.Jv,3,B.KL,4,B.IK,6,B.JD,8,B.J6,9,B.Jl,12,B.JK,16,B.JJ,24,B.K0],A.aq("cC<l,R<bb>>"))
 B.bM=new A.h(4294968065)
 B.lH=new A.a7(B.bM,!1,!1,!0,!1,B.m)
 B.bA=new A.h(4294968066)
@@ -92127,57 +92127,57 @@ B.Jd=s([54,null,null,8589935158],t.Z)
 B.Je=s([55,null,null,8589935159],t.Z)
 B.Jf=s([56,null,null,8589935160],t.Z)
 B.Jh=s([57,null,null,8589935161],t.Z)
-B.K6=s([8589934852,8589934852,8589934853,null],t.Z)
+B.K5=s([8589934852,8589934852,8589934853,null],t.Z)
 B.IO=s([4294967555,null,4294967555,null],t.Z)
 B.IP=s([4294968065,null,null,8589935154],t.Z)
 B.IQ=s([4294968066,null,null,8589935156],t.Z)
 B.IR=s([4294968067,null,null,8589935158],t.Z)
 B.IS=s([4294968068,null,null,8589935160],t.Z)
 B.IX=s([4294968321,null,null,8589935157],t.Z)
-B.K7=s([8589934848,8589934848,8589934849,null],t.Z)
+B.K6=s([8589934848,8589934848,8589934849,null],t.Z)
 B.IN=s([4294967423,null,null,8589935150],t.Z)
 B.IT=s([4294968069,null,null,8589935153],t.Z)
 B.IM=s([4294967309,null,null,8589935117],t.Z)
 B.IU=s([4294968070,null,null,8589935159],t.Z)
 B.IY=s([4294968327,null,null,8589935152],t.Z)
-B.K8=s([8589934854,8589934854,8589934855,null],t.Z)
+B.K7=s([8589934854,8589934854,8589934855,null],t.Z)
 B.IV=s([4294968071,null,null,8589935155],t.Z)
 B.IW=s([4294968072,null,null,8589935161],t.Z)
-B.K9=s([8589934850,8589934850,8589934851,null],t.Z)
-B.vc=new A.cC(["*",B.IZ,"+",B.J_,"-",B.J0,".",B.J1,"/",B.J2,"0",B.J3,"1",B.J4,"2",B.J8,"3",B.Ja,"4",B.Jb,"5",B.Jc,"6",B.Jd,"7",B.Je,"8",B.Jf,"9",B.Jh,"Alt",B.K6,"AltGraph",B.IO,"ArrowDown",B.IP,"ArrowLeft",B.IQ,"ArrowRight",B.IR,"ArrowUp",B.IS,"Clear",B.IX,"Control",B.K7,"Delete",B.IN,"End",B.IT,"Enter",B.IM,"Home",B.IU,"Insert",B.IY,"Meta",B.K8,"PageDown",B.IV,"PageUp",B.IW,"Shift",B.K9],A.aq("cC<y,R<l?>>"))
+B.K8=s([8589934850,8589934850,8589934851,null],t.Z)
+B.vc=new A.cC(["*",B.IZ,"+",B.J_,"-",B.J0,".",B.J1,"/",B.J2,"0",B.J3,"1",B.J4,"2",B.J8,"3",B.Ja,"4",B.Jb,"5",B.Jc,"6",B.Jd,"7",B.Je,"8",B.Jf,"9",B.Jh,"Alt",B.K5,"AltGraph",B.IO,"ArrowDown",B.IP,"ArrowLeft",B.IQ,"ArrowRight",B.IR,"ArrowUp",B.IS,"Clear",B.IX,"Control",B.K6,"Delete",B.IN,"End",B.IT,"Enter",B.IM,"Home",B.IU,"Insert",B.IY,"Meta",B.K7,"PageDown",B.IV,"PageUp",B.IW,"Shift",B.K8],A.aq("cC<y,R<l?>>"))
 B.Jg=s([B.pf,null,null,B.uW],t.L)
-B.KG=s([B.uI,null,null,B.uX],t.L)
+B.KF=s([B.uI,null,null,B.uX],t.L)
 B.JH=s([B.uJ,null,null,B.uY],t.L)
-B.Kb=s([B.uK,null,null,B.cY],t.L)
+B.Ka=s([B.uK,null,null,B.cY],t.L)
 B.IE=s([B.uL,null,null,B.uZ],t.L)
 B.KZ=s([B.uM,null,null,B.kU],t.L)
-B.KQ=s([B.uN,null,null,B.eY],t.L)
+B.KP=s([B.uN,null,null,B.eY],t.L)
 B.Jn=s([B.uO,null,null,B.cZ],t.L)
 B.L2=s([B.uP,null,null,B.eZ],t.L)
-B.KP=s([B.uQ,null,null,B.d_],t.L)
+B.KO=s([B.uQ,null,null,B.d_],t.L)
 B.Jk=s([B.uR,null,null,B.kV],t.L)
 B.II=s([B.uS,null,null,B.d0],t.L)
 B.Jw=s([B.uT,null,null,B.f_],t.L)
-B.KH=s([B.uU,null,null,B.d1],t.L)
-B.KJ=s([B.uV,null,null,B.f0],t.L)
+B.KG=s([B.uU,null,null,B.d1],t.L)
+B.KI=s([B.uV,null,null,B.f0],t.L)
 B.Jo=s([B.eW,B.eW,B.hL,null],t.L)
 B.L_=s([B.hI,null,B.hI,null],t.L)
 B.JR=s([B.bM,null,null,B.cZ],t.L)
 B.JS=s([B.bA,null,null,B.d_],t.L)
 B.JT=s([B.bB,null,null,B.d0],t.L)
 B.L0=s([B.bN,null,null,B.d1],t.L)
-B.KN=s([B.kO,null,null,B.kV],t.L)
+B.KM=s([B.kO,null,null,B.kV],t.L)
 B.Jp=s([B.dH,B.dH,B.eV,null],t.L)
-B.Kl=s([B.aF,null,null,B.cY],t.L)
+B.Kk=s([B.aF,null,null,B.cY],t.L)
 B.JU=s([B.cV,null,null,B.eY],t.L)
 B.Jj=s([B.hH,null,null,B.kT],t.L)
 B.JV=s([B.cW,null,null,B.f_],t.L)
-B.KO=s([B.kP,null,null,B.kU],t.L)
+B.KN=s([B.kP,null,null,B.kU],t.L)
 B.Jq=s([B.eX,B.eX,B.hM,null],t.L)
 B.JW=s([B.eT,null,null,B.eZ],t.L)
-B.Kq=s([B.eU,null,null,B.f0],t.L)
+B.Kp=s([B.eU,null,null,B.f0],t.L)
 B.Jr=s([B.cr,B.cr,B.cX,null],t.L)
-B.N_=new A.cC(["*",B.Jg,"+",B.KG,"-",B.JH,".",B.Kb,"/",B.IE,"0",B.KZ,"1",B.KQ,"2",B.Jn,"3",B.L2,"4",B.KP,"5",B.Jk,"6",B.II,"7",B.Jw,"8",B.KH,"9",B.KJ,"Alt",B.Jo,"AltGraph",B.L_,"ArrowDown",B.JR,"ArrowLeft",B.JS,"ArrowRight",B.JT,"ArrowUp",B.L0,"Clear",B.KN,"Control",B.Jp,"Delete",B.Kl,"End",B.JU,"Enter",B.Jj,"Home",B.JV,"Insert",B.KO,"Meta",B.Jq,"PageDown",B.JW,"PageUp",B.Kq,"Shift",B.Jr],A.aq("cC<y,R<h?>>"))
+B.N_=new A.cC(["*",B.Jg,"+",B.KF,"-",B.JH,".",B.Ka,"/",B.IE,"0",B.KZ,"1",B.KP,"2",B.Jn,"3",B.L2,"4",B.KO,"5",B.Jk,"6",B.II,"7",B.Jw,"8",B.KG,"9",B.KI,"Alt",B.Jo,"AltGraph",B.L_,"ArrowDown",B.JR,"ArrowLeft",B.JS,"ArrowRight",B.JT,"ArrowUp",B.L0,"Clear",B.KM,"Control",B.Jp,"Delete",B.Kk,"End",B.JU,"Enter",B.Jj,"Home",B.JV,"Insert",B.KN,"Meta",B.Jq,"PageDown",B.JW,"PageUp",B.Kp,"Shift",B.Jr],A.aq("cC<y,R<h?>>"))
 B.Ny={KeyA:0,KeyB:1,KeyC:2,KeyD:3,KeyE:4,KeyF:5,KeyG:6,KeyH:7,KeyI:8,KeyJ:9,KeyK:10,KeyL:11,KeyM:12,KeyN:13,KeyO:14,KeyP:15,KeyQ:16,KeyR:17,KeyS:18,KeyT:19,KeyU:20,KeyV:21,KeyW:22,KeyX:23,KeyY:24,KeyZ:25,Digit1:26,Digit2:27,Digit3:28,Digit4:29,Digit5:30,Digit6:31,Digit7:32,Digit8:33,Digit9:34,Digit0:35,Minus:36,Equal:37,BracketLeft:38,BracketRight:39,Backslash:40,Semicolon:41,Quote:42,Backquote:43,Comma:44,Period:45,Slash:46}
 B.vd=new A.bF(B.Ny,["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z","1","2","3","4","5","6","7","8","9","0","-","=","[","]","\\",";","'","`",",",".","/"],t.li)
 B.Nv={Abort:0,Again:1,AltLeft:2,AltRight:3,ArrowDown:4,ArrowLeft:5,ArrowRight:6,ArrowUp:7,AudioVolumeDown:8,AudioVolumeMute:9,AudioVolumeUp:10,Backquote:11,Backslash:12,Backspace:13,BracketLeft:14,BracketRight:15,BrightnessDown:16,BrightnessUp:17,BrowserBack:18,BrowserFavorites:19,BrowserForward:20,BrowserHome:21,BrowserRefresh:22,BrowserSearch:23,BrowserStop:24,CapsLock:25,Comma:26,ContextMenu:27,ControlLeft:28,ControlRight:29,Convert:30,Copy:31,Cut:32,Delete:33,Digit0:34,Digit1:35,Digit2:36,Digit3:37,Digit4:38,Digit5:39,Digit6:40,Digit7:41,Digit8:42,Digit9:43,DisplayToggleIntExt:44,Eject:45,End:46,Enter:47,Equal:48,Escape:49,Esc:50,F1:51,F10:52,F11:53,F12:54,F13:55,F14:56,F15:57,F16:58,F17:59,F18:60,F19:61,F2:62,F20:63,F21:64,F22:65,F23:66,F24:67,F3:68,F4:69,F5:70,F6:71,F7:72,F8:73,F9:74,Find:75,Fn:76,FnLock:77,GameButton1:78,GameButton10:79,GameButton11:80,GameButton12:81,GameButton13:82,GameButton14:83,GameButton15:84,GameButton16:85,GameButton2:86,GameButton3:87,GameButton4:88,GameButton5:89,GameButton6:90,GameButton7:91,GameButton8:92,GameButton9:93,GameButtonA:94,GameButtonB:95,GameButtonC:96,GameButtonLeft1:97,GameButtonLeft2:98,GameButtonMode:99,GameButtonRight1:100,GameButtonRight2:101,GameButtonSelect:102,GameButtonStart:103,GameButtonThumbLeft:104,GameButtonThumbRight:105,GameButtonX:106,GameButtonY:107,GameButtonZ:108,Help:109,Home:110,Hyper:111,Insert:112,IntlBackslash:113,IntlRo:114,IntlYen:115,KanaMode:116,KeyA:117,KeyB:118,KeyC:119,KeyD:120,KeyE:121,KeyF:122,KeyG:123,KeyH:124,KeyI:125,KeyJ:126,KeyK:127,KeyL:128,KeyM:129,KeyN:130,KeyO:131,KeyP:132,KeyQ:133,KeyR:134,KeyS:135,KeyT:136,KeyU:137,KeyV:138,KeyW:139,KeyX:140,KeyY:141,KeyZ:142,KeyboardLayoutSelect:143,Lang1:144,Lang2:145,Lang3:146,Lang4:147,Lang5:148,LaunchApp1:149,LaunchApp2:150,LaunchAssistant:151,LaunchControlPanel:152,LaunchMail:153,LaunchScreenSaver:154,MailForward:155,MailReply:156,MailSend:157,MediaFastForward:158,MediaPause:159,MediaPlay:160,MediaPlayPause:161,MediaRecord:162,MediaRewind:163,MediaSelect:164,MediaStop:165,MediaTrackNext:166,MediaTrackPrevious:167,MetaLeft:168,MetaRight:169,MicrophoneMuteToggle:170,Minus:171,NonConvert:172,NumLock:173,Numpad0:174,Numpad1:175,Numpad2:176,Numpad3:177,Numpad4:178,Numpad5:179,Numpad6:180,Numpad7:181,Numpad8:182,Numpad9:183,NumpadAdd:184,NumpadBackspace:185,NumpadClear:186,NumpadClearEntry:187,NumpadComma:188,NumpadDecimal:189,NumpadDivide:190,NumpadEnter:191,NumpadEqual:192,NumpadMemoryAdd:193,NumpadMemoryClear:194,NumpadMemoryRecall:195,NumpadMemoryStore:196,NumpadMemorySubtract:197,NumpadMultiply:198,NumpadParenLeft:199,NumpadParenRight:200,NumpadSubtract:201,Open:202,PageDown:203,PageUp:204,Paste:205,Pause:206,Period:207,Power:208,PrintScreen:209,PrivacyScreenToggle:210,Props:211,Quote:212,Resume:213,ScrollLock:214,Select:215,SelectTask:216,Semicolon:217,ShiftLeft:218,ShiftRight:219,ShowAllWindows:220,Slash:221,Sleep:222,Space:223,Super:224,Suspend:225,Tab:226,Turbo:227,Undo:228,WakeUp:229,ZoomToggle:230}
@@ -92774,9 +92774,9 @@ B.QS=new A.et([B.QB,B.Qz],A.aq("et<jF>"))
 B.zu=new A.et([B.ad,B.aM,B.bR,B.aX,B.bf],t.Lu)
 B.EM=new A.w(0.23529411764705882,0,0,0,B.e)
 B.Cu=new A.bb(0.5,B.F,B.EM,B.lb,10)
-B.Km=s([B.Cu],t.E)
+B.Kl=s([B.Cu],t.E)
 B.Q1=new A.jD(B.mD,B.q)
-B.QT=new A.hV(null,null,null,B.Km,B.Q1)
+B.QT=new A.hV(null,null,null,B.Kl,B.Q1)
 B.zv=new A.a7(B.kM,!1,!1,!1,!0,B.m)
 B.QU=new A.a7(B.pa,!0,!1,!1,!1,B.m)
 B.b7=new A.zb(1,"locked")
