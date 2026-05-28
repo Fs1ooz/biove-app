@@ -7909,7 +7909,8 @@ _.a=g},
 B4:function B4(a){this.a=a},
 WI:function WI(a){var _=this
 _.d=a
-_.c=_.a=_.e=null},
+_.e=400
+_.c=_.a=null},
 at0:function at0(a){this.a=a},
 asY:function asY(){},
 at_:function at_(a){this.a=a},
@@ -44465,10 +44466,8 @@ aj(){return new A.WI(new A.Si(B.BF,$.aB()))}}
 A.WI.prototype={
 gOc(){var s=this.d.a.a,r=A.Cy(A.pe(s,",","."))
 if(r==null)r=0
-if(r<=0||this.e==null)return null
-s=this.e
-s.toString
-return r*s*0.0008},
+if(r<=0)return null
+return r*this.e*0.0008},
 l(){var s=this.d
 s.W$=$.aB()
 s.U$=0
