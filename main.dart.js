@@ -22249,7 +22249,7 @@ if(a.as!==q)return q?-1:1
 return 0},
 aRw(a,b){var s=A.a1(b).h("a5<1,dY>")
 s=A.a_(new A.a5(b,new A.a71(),s),s.h("ay.E"))
-return A.aQS(!0,s,a,B.PP,!0,B.K7,null)},
+return A.aQS(!0,s,a,B.PO,!0,B.K7,null)},
 aBv(a){var s
 try{a.dK()}catch(s){a.Pa()}a.w=B.a5G
 try{a.bn(A.b_X())}catch(s){}},
@@ -22819,7 +22819,7 @@ _.as=!0
 _.at=!1
 _.$ti=d},
 AV(a,b){var s
-if(a.j(0,b))return new A.LE(B.PQ)
+if(a.j(0,b))return new A.LE(B.PP)
 s=A.b([],t.fJ)
 A.bN()
 a.nU(new A.aa9(b,A.aM(t.u),s))
@@ -27785,7 +27785,7 @@ PF(a,b){var s=A.b([],t.H9)
 B.b.E(s,a)
 return new A.fp(s,b)},
 aLJ(a,b){var s,r,q,p
-if(a==="")return A.PF(B.PD,b==null?B.bK:b)
+if(a==="")return A.PF(B.PC,b==null?B.bK:b)
 s=new A.alL(a,B.ds,a.length)
 s.uK()
 r=A.b([],t.H9)
@@ -31121,7 +31121,7 @@ Lj(){var s=this.Q
 s===$&&A.a()
 return s},
 x_(a,b,c,d){var s,r,q,p
-if(a<0||b<0)return B.PK
+if(a<0||b<0)return B.PJ
 s=this.a
 s===$&&A.a()
 s=s.a
@@ -35904,14 +35904,14 @@ abm(){var s=this,r=s.r
 if(r==null){r=s.r=new A.KV(s.c)
 r.d=new A.a7B(s)}return r},
 Kv(a){var s,r=this
-if(B.b.v(B.Qj,a.type)){s=r.abm()
+if(B.b.v(B.Qi,a.type)){s=r.abm()
 s.toString
 s.saqk(r.c.$0().a7i(5e5))
 if(r.f!==B.pJ){r.f=B.pJ
 r.Rs()}}return r.d.a.a22(a)},
 Rs(){var s,r
 for(s=this.w,r=0;r<s.length;++r)s[r].$1(this.f)},
-a2_(a){if(B.b.v(B.Px,a))return this.f===B.hW
+a2_(a){if(B.b.v(B.Pw,a))return this.f===B.hW
 return!1}}
 A.a7C.prototype={
 $0(){return new A.f3(Date.now(),0,!1)},
@@ -42271,7 +42271,7 @@ if(s==null||s.length<a)s=this.c=new Uint8Array(a)
 return J.di(B.B.gaW(s),s.byteOffset,a)}}
 A.apf.prototype={
 A(a,b){this.Er(b,0,J.cp(b),!1)},
-aL(){this.Er(B.PB,0,0,!0)}}
+aL(){this.Er(B.PA,0,0,!0)}}
 A.ap2.prototype={
 Er(a,b,c,d){var s=this.b.Xr(a,b,c,d)
 if(s!=null)this.a.A(0,A.Es(s,0,null))
@@ -44371,7 +44371,7 @@ this.c.aj(t.Pu).f.xu(B.Y5)},
 L(a){var s=this,r=null,q=A.cJ(r,B.q,r,B.nI,r,r,r,r),p=A.cF(B.OU,B.F,B.u,B.w,0),o=t.p
 p=A.aB3(A.b([new A.bs(B.kr,new A.Sf(36,B.E9,new A.Ey("assets/images/logo.svg",r,r,r,r),r,r),r)],o),!0,r,0,q,r,p)
 q=s.d
-q=A.aGy(B.bp,A.b([new A.NE(s.e,s.f,s.r,s.w,s.x,s.y,s.gajv(),s.gamQ(),r),new A.CG(B.Pt,r),new A.Q9(B.Ov,r)],o),q)
+q=A.aGy(B.bp,A.b([new A.NE(s.e,s.f,s.r,s.w,s.x,s.y,s.gajv(),s.gamQ(),r),new A.CG(B.Qm,r),new A.Q9(B.Ov,r)],o),q)
 o=s.d
 return A.aCw(p,B.k1,q,new A.yW(B.OF,new A.atL(s),o,B.E0,B.R,B.lE,r))}}
 A.atM.prototype={
@@ -44681,7 +44681,7 @@ if(B.c.v(s,"Primavera"))return B.a6N
 return B.a6O},
 gafg(){switch(this.gzf().a){case 0:var s=B.O8
 break
-case 1:s=B.Ql
+case 1:s=B.Qk
 break
 case 2:s=B.qp
 break
@@ -49653,7 +49653,7 @@ n=o.e
 o=o.cx
 r=q.gag0()
 q.a.toString
-return new A.Fw(p,p,p,new A.atN(),p,p,p,p,p,n,B.Sj,p,p,p,B.PF,q.gagd(),o,p,B.a08,s,p,r,p,p,B.qj,!1,!1,p,p,p,new A.qd(q,t.bT))},
+return new A.Fw(p,p,p,new A.atN(),p,p,p,p,p,n,B.Sj,p,p,p,B.PE,q.gagd(),o,p,B.a08,s,p,r,p,p,B.qj,!1,!1,p,p,p,new A.qd(q,t.bT))},
 L(a){var s,r=null,q=A.nu(!1,!1,this.a8b(a),r,r,r,r,!0,r,r,r,new A.atO(),r,r)
 this.a.toString
 s=this.d
@@ -55239,7 +55239,7 @@ r.e=s.a.a
 r.f=s.d},
 $S:0}
 A.OK.prototype={
-L(a){return A.aHT(new A.lq(B.Jh,null,null),B.P,new A.vf(1,B.PW,new A.cm(B.DI,B.n)),this.c.T(0,new A.f(0,40.95)),1.25,B.XM)}}
+L(a){return A.aHT(new A.lq(B.Jh,null,null),B.P,new A.vf(1,B.PV,new A.cm(B.DI,B.n)),this.c.T(0,new A.f(0,40.95)),1.25,B.XM)}}
 A.qK.prototype={
 G(){return"MaterialType."+this.b}}
 A.BJ.prototype={
@@ -60822,7 +60822,7 @@ return new A.qe(r.a.dl(s.giF()),r.b,r.c)},
 dk(a){var s=this.b
 return s.a.c.dk(a.O(0,s.giF()))},
 ra(){var s,r,q=this.b,p=q.giF()
-if(!isFinite(p.a)||!isFinite(p.b))return B.PN
+if(!isFinite(p.a)||!isFinite(p.b))return B.PM
 s=q.f
 if(s==null){s=q.a.c.ra()
 q.f=s}if(p.j(0,B.h))r=s
@@ -69976,7 +69976,7 @@ break
 case 1:return A.N(q,r)}})
 return A.O($async$Fm,r)},
 ab6(a,b){var s,r,q,p
-if(a===b)return B.PL
+if(a===b)return B.PK
 s=A.b([],t.QP)
 if(a==null)s.push(b)
 else{r=B.b.iA(B.fh,a)
@@ -71831,7 +71831,7 @@ A.m8.prototype={}
 A.Q_.prototype={
 mb(a,b){var s,r,q,p,o,n=$.a4.ab$.d.c
 if(n==null||n.e==null)return!1
-for(s=t.g,r=0;r<2;++r){q=B.Py[r]
+for(s=t.g,r=0;r<2;++r){q=B.Px[r]
 p=n.e
 p.toString
 o=A.aB_(p,q,s)
@@ -74247,7 +74247,7 @@ h.H6()
 r=h.gabS()
 q=q.kX
 h.e!==$&&A.bp()
-h.e=new A.Rt(s,new A.bM(B.RR,l),new A.qB(),p,B.cs,0,k,h.gaei(),h.gaek(),r,B.cs,0,j,h.gaec(),h.gaee(),r,i,B.PC,f,g.CW,g.cx,g.cy,o,g,n,m,g.x,q,new A.Mh(),new A.Mh())
+h.e=new A.Rt(s,new A.bM(B.RR,l),new A.qB(),p,B.cs,0,k,h.gaei(),h.gaek(),r,B.cs,0,j,h.gaec(),h.gaee(),r,i,B.PB,f,g.CW,g.cx,g.cy,o,g,n,m,g.x,q,new A.Mh(),new A.Mh())
 return h},
 y6(a,b){var s,r,q,p=this,o=p.a.c,n=o.a.a.length
 if(n<a.b||n<a.a)return
@@ -77702,7 +77702,7 @@ j(a,b){var s=this
 if(b==null)return!1
 if(J.S(b)!==A.w(s))return!1
 return b instanceof A.c3&&b.a===s.a&&b.b==s.b&&b.d===s.d&&A.cy(null,null)},
-gt(a){return A.G(this.a,this.b,null,this.d,A.ba(B.PO),B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
+gt(a){return A.G(this.a,this.b,null,this.d,A.ba(B.PN),B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
 k(a){return"IconData(U+"+B.c.mi(B.f.kl(this.a,16).toUpperCase(),5,"0")+")"}}
 A.qj.prototype={
 cB(a){return!this.w.j(0,a.w)},
@@ -78653,7 +78653,7 @@ h=r&&e
 c=r?e:c.CW
 if(c==null)c=B.ec
 r=r&&e
-g=new A.BP(b,s,q,p,m,o,n,a,h===!0,a0,a1,i,d,l,k,j,c,new A.uw(e),B.PI,r===!0)
+g=new A.BP(b,s,q,p,m,o,n,a,h===!0,a0,a1,i,d,l,k,j,c,new A.uw(e),B.PH,r===!0)
 if(!g.j(0,f.e))f.af(new A.au4(f,g))},
 Ao(){if(this.d==null)this.qN()},
 Ip(){this.qN()},
@@ -79038,7 +79038,7 @@ r.E(0,s.a_G(null,l))
 l.a.toString
 q=r.a
 p=0
-for(;!1;++p){o=B.PG[p]
+for(;!1;++p){o=B.PF[p]
 n=l.c
 n.toString
 m=new A.ie(o.I8(n),null,!0,B.nc,B.cb,new A.ty(new ($.a2H())(B.cb)),B.cb)
@@ -79393,7 +79393,7 @@ L(a){var s,r,q=this,p=null,o=q.gadF(),n=A.nw(a),m=q.bV$,l=q.d
 l===$&&A.a()
 s=q.a.ay
 if(l.gM()==null){r=q.gNu()
-r=J.nI(r.slice(0),A.a1(r).c)}else r=B.PH
+r=J.nI(r.slice(0),A.a1(r).c)}else r=B.PG
 return new A.qh(p,new A.dd(new A.af9(q,a),A.v9(B.bG,new A.KQ(!1,A.aBC(A.nu(!0,p,A.SY(m,new A.vw(r,s,l)),p,p,p,q.y,!1,p,p,p,p,p,!0),n),p),o,q.gagC(),p,p,p,p,o),p,t.w3),p)}}
 A.af8.prototype={
 $1(a){var s=this.a.c
@@ -84689,7 +84689,7 @@ r.zp()
 return s.aU()},
 l(){var s,r,q,p,o=this
 for(s=o.b,r=s.length,q=o.gFo(),p=0;p<s.length;s.length===r||(0,A.t)(s),++p)s[p].K(q)
-o.b=B.PJ
+o.b=B.PI
 o.y=!1
 o.cM()},
 e8(a,b){return a.ne(b)},
@@ -89141,7 +89141,7 @@ return!0}else if(o.at!=null)a.A(0,p)
 if(q>e)return this.Gk(a,s,r,q,e)
 return!1},
 Gl(a,b,c,d,e){var s,r,q,p,o,n,m,l,k,j,i
-for(s=d+1,r=s<e,q=2*b,p=2*c,o=this.a,n=this.e,m=0;m<4;++m){l=B.Qg[m]
+for(s=d+1,r=s<e,q=2*b,p=2*c,o=this.a,n=this.e,m=0;m<4;++m){l=B.Qf[m]
 k=q+l.a
 l=p+l.b
 j=new A.e5(s,k,l)
@@ -89415,7 +89415,7 @@ p.m(0,"x",B.d.k(r))
 q=b.b
 p.m(0,"y",B.d.k(q))
 p.m(0,"z",B.f.k(s))
-r=B.Pu[B.d.b8(r+q,3)]
+r=B.Pt[B.d.b8(r+q,3)]
 p.m(0,"s",r)
 r=c.dx
 r===$&&A.a()
@@ -91988,7 +91988,7 @@ $ier:1}
 A.ar.prototype={
 b9(a,b){var s=this.b4(new A.pJ(a,b))
 return s instanceof A.bi?-1:s.b},
-gdJ(){return B.PE},
+gdJ(){return B.PD},
 js(a,b){},
 k(a){return A.w(this).k(0)}}
 A.QU.prototype={}
@@ -92615,7 +92615,7 @@ s.r=A.bb(b).gn()
 if(a!==0)s.a=B.OA[a]
 if(e!=null)s.sq_(this.z[e])
 if(d===1){s.b=B.bj
-if(f!=null&&f!==0)s.d=B.Qe[f]
+if(f!=null&&f!==0)s.d=B.Qd[f]
 if(g!=null&&g!==0)s.e=B.Qn[g]
 if(h!=null&&h!==4)s.ax=h
 if(i!=null&&i!==0)s.c=i}this.x.push(s)},
@@ -98457,9 +98457,9 @@ B.E6=new A.bP(null,null,B.DT,null,null,null,B.a2)
 B.ow=new A.z(0.25882352941176473,0,0,0,B.e)
 B.dj=new A.f(0,3)
 B.EC=new A.bm(0,B.O,B.ow,B.dj,6)
-B.Pz=s([B.EC],t.E)
+B.Py=s([B.EC],t.E)
 B.c6=new A.Lu(1,"circle")
-B.E7=new A.bP(B.R,null,null,null,B.Pz,null,B.c6)
+B.E7=new A.bP(B.R,null,null,null,B.Py,null,B.c6)
 B.Jj=new A.z(1,0.9019607843137255,0.9568627450980393,0.9176470588235294,B.e)
 B.nH=new A.bP(B.Jj,null,null,null,null,null,B.c6)
 B.ct=new A.rQ(0,"clamp")
@@ -98731,7 +98731,7 @@ B.an=new A.anE()
 B.c9=new A.T2()
 B.dF=new A.anG()
 B.eA=new A.T7(0,0,0,0)
-B.PI=s([],A.a6("r<a5O>"))
+B.PH=s([],A.a6("r<a5O>"))
 B.a78=new A.anP()
 B.bi={}
 B.e5=new A.br(B.bi,[],t.li)
@@ -99405,8 +99405,8 @@ B.lf=new A.Bm(2,"mandatory")
 B.qa=new A.Bm(3,"endOfText")
 B.CP=new A.el(1,1)
 B.Gr=new A.z(1,0.01568627450980392,0.47058823529411764,0.3411764705882353,B.e)
-B.Q3=s([B.R,B.Gr],t.t_)
-B.NB=new A.nO(B.dC,B.CP,B.ct,B.Q3,null,null)
+B.Q2=s([B.R,B.Gr],t.t_)
+B.NB=new A.nO(B.dC,B.CP,B.ct,B.Q2,null,null)
 B.i3=new A.OC(B.eN,A.a6("OC<eW>"))
 B.qb=new A.ab_(1,"trailing")
 B.NC=new A.v8(null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
@@ -99433,12 +99433,12 @@ B.NM=s(["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"]
 B.J2=new A.z(1,0.7058823529411765,0.3254901960784314,0.03529411764705882,B.e)
 B.O8=s([B.oQ,B.J2],t.t_)
 B.Oa=s([4,9,14,19],t.t)
-B.Q7=s([137,80,78,71,13,10,26,10],t.Z)
+B.Q6=s([137,80,78,71,13,10,26,10],t.Z)
 B.Mz=new A.nA(0,"png")
 B.MN=new A.kl(B.Mz,!1,0,"png")
-B.Mx=new A.lJ(B.Q7,B.MN,0,"png")
-B.Qa=s([71,73,70,56,55,97],t.Z)
-B.Mw=new A.lJ(B.Qa,B.hZ,1,"gif87a")
+B.Mx=new A.lJ(B.Q6,B.MN,0,"png")
+B.Q9=s([71,73,70,56,55,97],t.Z)
+B.Mw=new A.lJ(B.Q9,B.hZ,1,"gif87a")
 B.Pp=s([71,73,70,56,57,97],t.Z)
 B.Mv=new A.lJ(B.Pp,B.hZ,2,"gif89a")
 B.NK=s([255,216,255],t.Z)
@@ -99456,8 +99456,8 @@ B.ne=new A.Ie(0,"named")
 B.CB=new A.Ie(1,"anonymous")
 B.Ol=s([B.ne,B.CB],A.a6("r<Ie>"))
 B.qg=s([0,4,12,1,5,13,3,7,15],t.t)
-B.Q8=s(["500 g di patate silane IGP","150 g di farina","300 g di funghi porcini freschi","Olio EVO","1 spicchio d'aglio","Prezzemolo fresco","Sale q.b."],t.s)
-B.UW=new A.hv("Gnocchi di Patate Silane ai Porcini della Sila",B.Q8,"Lessate le patate, schiacciatele e impastatele con la farina. Create gli gnocchi. In una padella, saltate i porcini affettati con olio e aglio. Saltate gli gnocchi nel sugo di porcini aggiungendo un pizzico di prezzemolo fresco a fine cottura. La consistenza farinosa della patata silana conferisce una tenuta perfetta.")
+B.Q7=s(["500 g di patate silane IGP","150 g di farina","300 g di funghi porcini freschi","Olio EVO","1 spicchio d'aglio","Prezzemolo fresco","Sale q.b."],t.s)
+B.UW=new A.hv("Gnocchi di Patate Silane ai Porcini della Sila",B.Q7,"Lessate le patate, schiacciatele e impastatele con la farina. Create gli gnocchi. In una padella, saltate i porcini affettati con olio e aglio. Saltate gli gnocchi nel sugo di porcini aggiungendo un pizzico di prezzemolo fresco a fine cottura. La consistenza farinosa della patata silana conferisce una tenuta perfetta.")
 B.V1=new A.hv("Zuppa di fagioli di Cortale e funghi rositi",null,null)
 B.OS=s([B.UW,B.V1],t.WT)
 B.W5=new A.mf("Autunno","Porcini, patate silane e legumi: i sapori profondi del bosco e della terra.",B.OS,"Ingredienti locali riducono l'impronta CO\u2082 del trasporto.")
@@ -99471,11 +99471,11 @@ B.V_=new A.hv("Tagliere di Caciocavallo Silano DOP con miele della Sila",null,nu
 B.V0=new A.hv("Crostata di grano saraceno con confettura di fragoline o more selvatiche",null,null)
 B.ON=s([B.V_,B.V0],t.WT)
 B.W6=new A.mf("Primavera","Sapori delicati e freschi con i formaggi DOP e i cereali antichi della Sila.",B.ON,"L'uso di farine antiche e frutti locali mantiene basso il consumo di CO\u2082.")
-B.Q6=s(["300 g di Fileja (pasta fresca calabrese)","150 g di frutti di bosco misti (mirtilli, lamponi, more)","100 g di caciocavallo silano","Un goccio di latte","Pepe nero q.b."],t.s)
-B.V3=new A.hv("Fileja ai Frutti di Bosco e Fonduta di Silano",B.Q6,"Preparate una fonduta sciogliendo a bagnomaria il caciocavallo con il latte. Cuocete la pasta. Nel frattempo, scaldate velocemente i frutti di bosco in padella con una punta di burro. Unite la pasta alla fonduta e guarnite con i frutti di bosco caldi. L'acidit\xe0 del frutto pulisce il palato dalla ricchezza del formaggio.")
+B.Q5=s(["300 g di Fileja (pasta fresca calabrese)","150 g di frutti di bosco misti (mirtilli, lamponi, more)","100 g di caciocavallo silano","Un goccio di latte","Pepe nero q.b."],t.s)
+B.V3=new A.hv("Fileja ai Frutti di Bosco e Fonduta di Silano",B.Q5,"Preparate una fonduta sciogliendo a bagnomaria il caciocavallo con il latte. Cuocete la pasta. Nel frattempo, scaldate velocemente i frutti di bosco in padella con una punta di burro. Unite la pasta alla fonduta e guarnite con i frutti di bosco caldi. L'acidit\xe0 del frutto pulisce il palato dalla ricchezza del formaggio.")
 B.UZ=new A.hv("Tagliatelle fresche con funghi porcini estivi",null,null)
-B.Q4=s([B.V3,B.UZ],t.WT)
-B.W4=new A.mf("Estate","Freschezza ad alta quota con frutti di bosco, pasta fresca e porcini estivi.",B.Q4,"I frutti di bosco raccolti localmente non richiedono trasporti lunghi: freschezza e zero emissioni.")
+B.Q3=s([B.V3,B.UZ],t.WT)
+B.W4=new A.mf("Estate","Freschezza ad alta quota con frutti di bosco, pasta fresca e porcini estivi.",B.Q3,"I frutti di bosco raccolti localmente non richiedono trasporti lunghi: freschezza e zero emissioni.")
 B.Ov=s([B.W5,B.W7,B.W6,B.W4],A.a6("r<mf>"))
 B.a5U=new A.hE(0,1)
 B.a5Z=new A.hE(0.5,1)
@@ -99498,8 +99498,8 @@ B.j2=new A.mo(5,"end")
 B.Oy=s([B.cO,B.ex,B.cr,B.fQ,B.aW,B.j2],A.a6("r<mo>"))
 B.OQ=s([2,1.13276676],t.n)
 B.NO=s([2.18349805,1.20311921],t.n)
-B.PT=s([2.33888662,1.28698796],t.n)
-B.PV=s([2.48660575,1.36351941],t.n)
+B.PS=s([2.33888662,1.28698796],t.n)
+B.PU=s([2.48660575,1.36351941],t.n)
 B.OD=s([2.62226596,1.44717976],t.n)
 B.OJ=s([2.7514899,1.53385819],t.n)
 B.Pm=s([3.36298265,1.98288283],t.n)
@@ -99507,7 +99507,7 @@ B.OV=s([4.08649929,2.23811846],t.n)
 B.P9=s([4.85481134,2.47563463],t.n)
 B.OG=s([5.62945551,2.72948597],t.n)
 B.OR=s([6.43023796,2.98020421],t.n)
-B.qh=s([B.OQ,B.NO,B.PT,B.PV,B.OD,B.OJ,B.Pm,B.OV,B.P9,B.OG,B.OR],t.zg)
+B.qh=s([B.OQ,B.NO,B.PS,B.PU,B.OD,B.OJ,B.Pm,B.OV,B.P9,B.OG,B.OR],t.zg)
 B.D3=new A.cs(0,"clear")
 B.D4=new A.cs(1,"src")
 B.Dj=new A.cs(2,"dst")
@@ -99629,24 +99629,6 @@ B.Cj=new A.wX(2,"bottomLeft")
 B.a5D=new A.mB(B.Ci,B.Cj)
 B.a5E=new A.mB(B.Cj,B.Ci)
 B.Ps=s([B.a5C,B.a5F,B.a5D,B.a5E],A.a6("r<mB>"))
-B.M2=new A.c3(58091,"MaterialIcons",!1)
-B.Nu=new A.e0(39.282993,16.6452085)
-B.UJ=new A.fq("Consorzio Tutela Patate della Sila IGP","Consorzio / Patate della Sila IGP","Patata della Sila IGP; servizi e supporto ai produttori","Camigliatello Silano","8 km","CONSORZIO PRODUTTORI PATATE ASSOCIATI","Consorzio che coordina i produttori della Patata della Sila IGP.",B.M2,B.Nu)
-B.Nv=new A.e0(39.2748069,16.6980285)
-B.UP=new A.fq("Azienda Ortofloricola VELTRI","Azienda Ortofloricola","Prodotti ortofloricoli locali","San Giovanni in Fiore","","C. da Olivaro, Via dei Tulipani, 6 \u2013 San Giovanni in Fiore","Azienda ortofloricola di Allevato Maria Teresa.",B.pQ,B.Nv)
-B.la=new A.c3(57443,"MaterialIcons",!1)
-B.Np=new A.e0(39.2570102,16.5758626)
-B.UN=new A.fq("Societ\xe0 Agricola La Sorgente","Azienda Agricola","Prodotti agricoli locali","San Giovanni in Fiore","","87055 San Giovanni in Fiore, Cosenza (Calabria)","Azienda agricola situata a San Giovanni in Fiore.",B.la,B.Np)
-B.Ns=new A.e0(39.25,16.69)
-B.UL=new A.fq("Orto di Lidia","Ortaggi e Erbe","Ortaggi biologici, erbe aromatiche","San Giovanni in Fiore","3 km",null,"Orto familiare con coltivazione biologica e attivit\xe0 didattiche.",B.cj,B.Ns)
-B.LV=new A.c3(57545,"MaterialIcons",!1)
-B.Nr=new A.e0(39.255,16.702)
-B.UM=new A.fq("Forno Parmella","Forni","Pane artigianale e dolci tipici","San Giovanni in Fiore","2 km",null,"Forno locale specializzato in lievitazione naturale e ricette tradizionali.",B.LV,B.Nr)
-B.Nw=new A.e0(39.2241279,16.8030093)
-B.UK=new A.fq("Azienda agricola Grancia del Vurdoj","Azienda Agricola","Prodotti locali","Caccuri (KR)","","88833 Caccuri KR","Azienda agricola situata a Caccuri, in provincia di Crotone.",B.la,B.Nw)
-B.Nt=new A.e0(39.226,16.805)
-B.UO=new A.fq("Azienda agricola di Andrea Loria","Azienda Agricola","Prodotti agricoli locali","Caccuri","","Contrada Maladera, Caccuri","Azienda agricola situata in Contrada Maladera a Caccuri.",B.la,B.Nt)
-B.Pt=s([B.UJ,B.UP,B.UN,B.UL,B.UM,B.UK,B.UO],t.hw)
 B.Vt=new A.ac(0.01339448,0.05994973)
 B.Vs=new A.ac(0.13664115,0.13592082)
 B.Vf=new A.ac(0.24545546,0.14099516)
@@ -99662,34 +99644,34 @@ B.Vc=new A.ac(0.66416338,0.0734653)
 B.V9=new A.ac(0.68675338,0.06974996)
 B.Vp=new A.ac(0.70678034,0.06529512)
 B.ql=s([B.Vt,B.Vs,B.Vf,B.Vi,B.Vr,B.V6,B.Vd,B.Vg,B.Vb,B.Vo,B.Vw,B.Vc,B.V9,B.Vp],A.a6("r<+(D,D)>"))
-B.Pu=s(["a","b","c"],t.s)
-B.Px=s(["click","scroll"],t.s)
+B.Pt=s(["a","b","c"],t.s)
+B.Pw=s(["click","scroll"],t.s)
 B.ET=new A.n0()
 B.fC=new A.Rk(1,"page")
 B.iI=new A.eR(B.b_,B.fC)
-B.Py=s([B.ET,B.iI],A.a6("r<aW>"))
-B.PL=s([],t.QP)
+B.Px=s([B.ET,B.iI],A.a6("r<aW>"))
+B.PK=s([],t.QP)
 B.qn=s([],A.a6("r<b1O>"))
-B.PP=s([],t.D)
-B.PQ=s([],t.fJ)
-B.PN=s([],t.ER)
+B.PO=s([],t.D)
+B.PP=s([],t.fJ)
+B.PM=s([],t.ER)
 B.a7j=s([],t.ss)
-B.PF=s([],t.tc)
+B.PE=s([],t.tc)
 B.i5=s([],t.jl)
-B.PH=s([],t.wi)
-B.PG=s([],A.a6("r<aHx<@>>"))
-B.PE=s([],t.Vz)
-B.PD=s([],t.H9)
+B.PG=s([],t.wi)
+B.PF=s([],A.a6("r<aHx<@>>"))
+B.PD=s([],t.Vz)
+B.PC=s([],t.H9)
 B.li=s([],t.AO)
-B.PJ=s([],t.D1)
+B.PI=s([],t.D1)
 B.lh=s([],t.QF)
-B.PK=s([],t.Lx)
-B.PC=s([],t.fm)
+B.PJ=s([],t.Lx)
+B.PB=s([],t.fm)
 B.a7k=s([],t.p)
 B.qm=s([],t.n)
-B.PB=s([],t.t)
+B.PA=s([],t.t)
 B.t=s([],t.ee)
-B.PO=s([],t.XS)
+B.PN=s([],t.XS)
 B.l7=new A.iu(0)
 B.LF=new A.iu(1)
 B.pE=new A.iu(2)
@@ -99699,7 +99681,7 @@ B.LK=new A.iu(7)
 B.pG=new A.iu(8)
 B.lj=s([B.l7,B.LF,B.pE,B.r,B.a_,B.bF,B.aa,B.LK,B.pG],A.a6("r<iu>"))
 B.Ep=new A.bm(0.75,B.O,B.ox,B.fu,1.5)
-B.PW=s([B.Ep],t.E)
+B.PV=s([B.Ep],t.E)
 B.fh=s([B.cU,B.cx,B.h6,B.h7,B.jI],t.QP)
 B.VC=new A.xI(100,"Altra citt\xe0","~100 km")
 B.VB=new A.xI(400,"Altra regione","~400 km")
@@ -99708,12 +99690,12 @@ B.qo=s([B.VC,B.VB,B.VD],A.a6("r<+km,label,sublabel(n,j,j)>"))
 B.ew=new A.wl(0,"butt")
 B.j1=new A.wl(1,"round")
 B.Bs=new A.wl(2,"square")
-B.Qe=s([B.ew,B.j1,B.Bs],A.a6("r<wl>"))
+B.Qd=s([B.ew,B.j1,B.Bs],A.a6("r<wl>"))
 B.Am=new A.ac(0,0)
 B.V4=new A.ac(0,1)
 B.V7=new A.ac(1,0)
 B.V8=new A.ac(1,1)
-B.Qg=s([B.Am,B.V4,B.V7,B.V8],A.a6("r<+(n,n)>"))
+B.Qf=s([B.Am,B.V4,B.V7,B.V8],A.a6("r<+(n,n)>"))
 B.e6=new A.hX(0,"controlModifier")
 B.e7=new A.hX(1,"shiftModifier")
 B.e8=new A.hX(2,"altModifier")
@@ -99725,10 +99707,28 @@ B.lJ=new A.hX(7,"functionModifier")
 B.wB=new A.hX(8,"symbolModifier")
 B.qq=s([B.e6,B.e7,B.e8,B.e9,B.lG,B.lH,B.lI,B.lJ,B.wB],A.a6("r<hX>"))
 B.lk=s([!0,!1],t.HZ)
-B.Qj=s(["pointerdown","pointermove","pointerleave","pointerup","pointercancel","touchstart","touchend","touchmove","touchcancel","mousedown","mousemove","mouseleave","mouseup","wheel"],t.s)
+B.Qi=s(["pointerdown","pointermove","pointerleave","pointerup","pointercancel","touchstart","touchend","touchmove","touchcancel","mousedown","mousemove","mouseleave","mouseup","wheel"],t.s)
 B.qr=s([1,2,4,8,16,32,64,128,256,512,1024,2048,4096,8192,16384,32768,65536,131072,262144,524288,1048576,2097152,4194304,8388608,16777216,33554432,67108864,134217728,268435456,536870912,1073741824,2147483648],t.t)
 B.IH=new A.z(1,0.11764705882352941,0.22745098039215686,0.5411764705882353,B.e)
-B.Ql=s([B.oL,B.IH],t.t_)
+B.Qk=s([B.oL,B.IH],t.t_)
+B.M2=new A.c3(58091,"MaterialIcons",!1)
+B.Nt=new A.e0(39.282993,16.6452085)
+B.UJ=new A.fq("Consorzio Tutela Patate della Sila IGP","Consorzio / Patate della Sila IGP","Patata della Sila IGP; servizi e supporto ai produttori","Camigliatello Silano","8 km","CONSORZIO PRODUTTORI PATATE ASSOCIATI","Consorzio che coordina i produttori della Patata della Sila IGP.",B.M2,B.Nt)
+B.Nu=new A.e0(39.2748069,16.6980285)
+B.UP=new A.fq("Azienda Ortofloricola VELTRI","Azienda Ortofloricola","Prodotti ortofloricoli locali","San Giovanni in Fiore","","C. da Olivaro, Via dei Tulipani, 6 \u2013 San Giovanni in Fiore","Azienda ortofloricola di Allevato Maria Teresa.",B.pQ,B.Nu)
+B.la=new A.c3(57443,"MaterialIcons",!1)
+B.Np=new A.e0(39.2570102,16.5758626)
+B.UN=new A.fq("Societ\xe0 Agricola La Sorgente","Azienda Agricola","Prodotti agricoli locali","San Giovanni in Fiore","","87055 San Giovanni in Fiore, Cosenza (Calabria)","Azienda agricola situata a San Giovanni in Fiore.",B.la,B.Np)
+B.Ns=new A.e0(39.25,16.69)
+B.UL=new A.fq("Orto di Lidia","Ortaggi e Erbe","Ortaggi biologici, erbe aromatiche","San Giovanni in Fiore","3 km",null,"Orto familiare con coltivazione biologica e attivit\xe0 didattiche.",B.cj,B.Ns)
+B.LV=new A.c3(57545,"MaterialIcons",!1)
+B.Nr=new A.e0(39.255,16.702)
+B.UM=new A.fq("Forno Parmella","Forni","Pane artigianale e dolci tipici","San Giovanni in Fiore","2 km",null,"Forno locale specializzato in lievitazione naturale e ricette tradizionali.",B.LV,B.Nr)
+B.Nv=new A.e0(39.2241279,16.8030093)
+B.UK=new A.fq("Azienda agricola Grancia del Vurdoj","Azienda Agricola","Prodotti locali","Caccuri (KR)","","88833 Caccuri KR","Azienda agricola situata a Caccuri, in provincia di Crotone.",B.la,B.Nv)
+B.Nw=new A.e0(39.2316,16.7886)
+B.UO=new A.fq("Azienda agricola di Andrea Loria","Azienda Agricola","Prodotti agricoli locali","Caccuri","","Contrada Maladera, Caccuri","Azienda agricola situata in Contrada Maladera a Caccuri.",B.la,B.Nw)
+B.Qm=s([B.UJ,B.UP,B.UN,B.UL,B.UM,B.UK,B.UO],t.hw)
 B.fP=new A.wm(0,"miter")
 B.mu=new A.wm(1,"round")
 B.Yp=new A.wm(2,"bevel")
@@ -99808,14 +99808,14 @@ B.mx=new A.dO(17,"smoothCubicToRel")
 B.my=new A.dO(18,"smoothQuadToAbs")
 B.mz=new A.dO(19,"smoothQuadToRel")
 B.S0=new A.cC([90,B.mv,122,B.mv,77,B.mA,109,B.mB,76,B.Bt,108,B.Bu,67,B.mC,99,B.mD,81,B.mE,113,B.mF,65,B.Yw,97,B.Yx,72,B.Yy,104,B.Yz,86,B.YA,118,B.YB,83,B.mw,115,B.mx,84,B.my,116,B.mz],A.a6("cC<n,dO>"))
-B.PM=s([],t.E)
+B.PL=s([],t.E)
 B.bP=new A.z(0.2,0,0,0,B.e)
 B.Eo=new A.bm(-1,B.O,B.bP,B.fu,1)
 B.bQ=new A.z(0.1411764705882353,0,0,0,B.e)
 B.bV=new A.f(0,1)
 B.Ee=new A.bm(0,B.O,B.bQ,B.bV,1)
 B.En=new A.bm(0,B.O,B.bE,B.bV,3)
-B.Q9=s([B.Eo,B.Ee,B.En],t.E)
+B.Q8=s([B.Eo,B.Ee,B.En],t.E)
 B.Em=new A.bm(-2,B.O,B.bP,B.dj,1)
 B.Ey=new A.bm(0,B.O,B.bQ,B.fu,2)
 B.Eg=new A.bm(0,B.O,B.bE,B.bV,5)
@@ -99823,7 +99823,7 @@ B.Oz=s([B.Em,B.Ey,B.Eg],t.E)
 B.Ef=new A.bm(-2,B.O,B.bP,B.dj,3)
 B.Ei=new A.bm(0,B.O,B.bQ,B.dj,4)
 B.EJ=new A.bm(0,B.O,B.bE,B.bV,8)
-B.PX=s([B.Ef,B.Ei,B.EJ],t.E)
+B.PW=s([B.Ef,B.Ei,B.EJ],t.E)
 B.El=new A.bm(-1,B.O,B.bP,B.fu,4)
 B.Eu=new A.bm(0,B.O,B.bQ,B.lL,5)
 B.Eq=new A.bm(0,B.O,B.bE,B.bV,10)
@@ -99861,7 +99861,7 @@ B.Td=new A.f(0,24)
 B.EE=new A.bm(3,B.O,B.bQ,B.Td,38)
 B.Ew=new A.bm(8,B.O,B.bE,B.wG,46)
 B.P6=s([B.Ek,B.EE,B.Ew],t.E)
-B.S1=new A.cC([0,B.PM,1,B.Q9,2,B.Oz,3,B.PX,4,B.NN,6,B.OI,8,B.O9,9,B.Oo,12,B.OP,16,B.OO,24,B.P6],A.a6("cC<n,J<bm>>"))
+B.S1=new A.cC([0,B.PL,1,B.Q8,2,B.Oz,3,B.PW,4,B.NN,6,B.OI,8,B.O9,9,B.Oo,12,B.OP,16,B.OO,24,B.P6],A.a6("cC<n,J<bm>>"))
 B.bT=new A.h(4294968065)
 B.mg=new A.aj(B.bT,!1,!1,!0,!1,B.m)
 B.bH=new A.h(4294968066)
@@ -100494,16 +100494,16 @@ B.Se=new A.br(B.T8,[B.HO,B.HY,B.ob,B.H0,B.HQ,B.HT,B.Ig,B.cA,B.Ii,B.Gv,B.H6,B.Hi,
 B.P3=s(["Arance","Mandarini","Broccoli","Cavolfiore","Finocchi"],t.s)
 B.OH=s(["Arance","Kiwi","Cicoria","Porri","Radicchio"],t.s)
 B.P1=s(["Fragole","Arance","Asparagi","Spinaci","Piselli"],t.s)
-B.Qk=s(["Fragole","Ciliegie","Asparagi","Fave","Lattuga"],t.s)
-B.Qi=s(["Fragole","Ciliegie","Fave","Piselli","Asparagi"],t.s)
+B.Qj=s(["Fragole","Ciliegie","Asparagi","Fave","Lattuga"],t.s)
+B.Qh=s(["Fragole","Ciliegie","Fave","Piselli","Asparagi"],t.s)
 B.OE=s(["Pesche","Albicocche","Melanzane","Zucchine","Pomodori"],t.s)
 B.OK=s(["Pesche","Anguria","Pomodori","Peperoni","Melanzane"],t.s)
-B.Qb=s(["Fichi","Anguria","Pomodori","Melanzane","Fagiolini"],t.s)
-B.Q2=s(["Uva","Fichi","Funghi","Radicchio","Zucca"],t.s)
-B.Q1=s(["Uva","Mele","Funghi","Zucca","Cavolo"],t.s)
-B.Q5=s(["Melograno","Kaki","Broccoli","Cavolfiore","Porri"],t.s)
+B.Qa=s(["Fichi","Anguria","Pomodori","Melanzane","Fagiolini"],t.s)
+B.Q1=s(["Uva","Fichi","Funghi","Radicchio","Zucca"],t.s)
+B.Q0=s(["Uva","Mele","Funghi","Zucca","Cavolo"],t.s)
+B.Q4=s(["Melograno","Kaki","Broccoli","Cavolfiore","Porri"],t.s)
 B.P4=s(["Arance","Mandarini","Broccoli","Finocchi","Cavolini"],t.s)
-B.Sf=new A.cC([1,B.P3,2,B.OH,3,B.P1,4,B.Qk,5,B.Qi,6,B.OE,7,B.OK,8,B.Qb,9,B.Q2,10,B.Q1,11,B.Q5,12,B.P4],A.a6("cC<n,J<j>>"))
+B.Sf=new A.cC([1,B.P3,2,B.OH,3,B.P1,4,B.Qj,5,B.Qh,6,B.OE,7,B.OK,8,B.Qa,9,B.Q1,10,B.Q0,11,B.Q4,12,B.P4],A.a6("cC<n,J<j>>"))
 B.T5={type:0}
 B.Sg=new A.br(B.T5,["line"],t.li)
 B.Si=new A.br(B.bi,[],A.a6("br<jb,D>"))
@@ -100549,38 +100549,38 @@ B.NZ=s([4294968072,null,null,8589935161],t.Z)
 B.Ph=s([8589934850,8589934850,8589934851,null],t.Z)
 B.ww=new A.cC(["*",B.O1,"+",B.O2,"-",B.O3,".",B.O4,"/",B.O5,"0",B.O6,"1",B.O7,"2",B.Ob,"3",B.Od,"4",B.Oe,"5",B.Of,"6",B.Og,"7",B.Oh,"8",B.Oi,"9",B.Ok,"Alt",B.Pe,"AltGraph",B.NR,"ArrowDown",B.NS,"ArrowLeft",B.NT,"ArrowRight",B.NU,"ArrowUp",B.NV,"Clear",B.O_,"Control",B.Pf,"Delete",B.NQ,"End",B.NW,"Enter",B.NP,"Home",B.NX,"Insert",B.O0,"Meta",B.Pg,"PageDown",B.NY,"PageUp",B.NZ,"Shift",B.Ph],A.a6("cC<j,J<n?>>"))
 B.Oj=s([B.qy,null,null,B.we],t.L)
-B.PR=s([B.w0,null,null,B.wf],t.L)
+B.PQ=s([B.w0,null,null,B.wf],t.L)
 B.OM=s([B.w1,null,null,B.wg],t.L)
 B.Pj=s([B.w2,null,null,B.dc],t.L)
 B.NG=s([B.w3,null,null,B.wh],t.L)
-B.Qc=s([B.w4,null,null,B.lu],t.L)
-B.Q0=s([B.w5,null,null,B.fq],t.L)
+B.Qb=s([B.w4,null,null,B.lu],t.L)
+B.Q_=s([B.w5,null,null,B.fq],t.L)
 B.Oq=s([B.w6,null,null,B.dd],t.L)
-B.Qh=s([B.w7,null,null,B.fr],t.L)
-B.Q_=s([B.w8,null,null,B.de],t.L)
+B.Qg=s([B.w7,null,null,B.fr],t.L)
+B.PZ=s([B.w8,null,null,B.de],t.L)
 B.On=s([B.w9,null,null,B.lv],t.L)
 B.NL=s([B.wa,null,null,B.df],t.L)
 B.OB=s([B.wb,null,null,B.fs],t.L)
-B.PS=s([B.wc,null,null,B.dg],t.L)
-B.PU=s([B.wd,null,null,B.ft],t.L)
+B.PR=s([B.wc,null,null,B.dg],t.L)
+B.PT=s([B.wd,null,null,B.ft],t.L)
 B.Or=s([B.fo,B.fo,B.ib,null],t.L)
-B.Qd=s([B.i8,null,B.i8,null],t.L)
+B.Qc=s([B.i8,null,B.i8,null],t.L)
 B.OW=s([B.bT,null,null,B.dd],t.L)
 B.OX=s([B.bH,null,null,B.de],t.L)
 B.OY=s([B.bI,null,null,B.df],t.L)
-B.Qf=s([B.bU,null,null,B.dg],t.L)
-B.PY=s([B.lo,null,null,B.lv],t.L)
+B.Qe=s([B.bU,null,null,B.dg],t.L)
+B.PX=s([B.lo,null,null,B.lv],t.L)
 B.Os=s([B.e3,B.e3,B.fn,null],t.L)
-B.Pv=s([B.aL,null,null,B.dc],t.L)
+B.Pu=s([B.aL,null,null,B.dc],t.L)
 B.OZ=s([B.d9,null,null,B.fq],t.L)
 B.Om=s([B.i7,null,null,B.lt],t.L)
 B.P_=s([B.da,null,null,B.fs],t.L)
-B.PZ=s([B.lp,null,null,B.lu],t.L)
+B.PY=s([B.lp,null,null,B.lu],t.L)
 B.Ot=s([B.fp,B.fp,B.ic,null],t.L)
 B.P0=s([B.fl,null,null,B.fr],t.L)
-B.PA=s([B.fm,null,null,B.ft],t.L)
+B.Pz=s([B.fm,null,null,B.ft],t.L)
 B.Ou=s([B.cG,B.cG,B.db,null],t.L)
-B.Sk=new A.cC(["*",B.Oj,"+",B.PR,"-",B.OM,".",B.Pj,"/",B.NG,"0",B.Qc,"1",B.Q0,"2",B.Oq,"3",B.Qh,"4",B.Q_,"5",B.On,"6",B.NL,"7",B.OB,"8",B.PS,"9",B.PU,"Alt",B.Or,"AltGraph",B.Qd,"ArrowDown",B.OW,"ArrowLeft",B.OX,"ArrowRight",B.OY,"ArrowUp",B.Qf,"Clear",B.PY,"Control",B.Os,"Delete",B.Pv,"End",B.OZ,"Enter",B.Om,"Home",B.P_,"Insert",B.PZ,"Meta",B.Ot,"PageDown",B.P0,"PageUp",B.PA,"Shift",B.Ou],A.a6("cC<j,J<h?>>"))
+B.Sk=new A.cC(["*",B.Oj,"+",B.PQ,"-",B.OM,".",B.Pj,"/",B.NG,"0",B.Qb,"1",B.Q_,"2",B.Oq,"3",B.Qg,"4",B.PZ,"5",B.On,"6",B.NL,"7",B.OB,"8",B.PR,"9",B.PT,"Alt",B.Or,"AltGraph",B.Qc,"ArrowDown",B.OW,"ArrowLeft",B.OX,"ArrowRight",B.OY,"ArrowUp",B.Qe,"Clear",B.PX,"Control",B.Os,"Delete",B.Pu,"End",B.OZ,"Enter",B.Om,"Home",B.P_,"Insert",B.PY,"Meta",B.Ot,"PageDown",B.P0,"PageUp",B.Pz,"Shift",B.Ou],A.a6("cC<j,J<h?>>"))
 B.SV={multiply:0,screen:1,overlay:2,darken:3,lighten:4,"color-dodge":5,"color-burn":6,"hard-light":7,"soft-light":8,difference:9,exclusion:10,hue:11,saturation:12,color:13,luminosity:14}
 B.Dt=new A.eI(24,"multiply")
 B.D8=new A.eI(14,"screen")
@@ -101000,8 +101000,8 @@ B.Me=new A.dz(B.M9,40,B.dK,null,null)
 B.ev=new A.de(null,8,null,null)
 B.a0q=new A.m(!0,B.lE,null,null,null,null,13,null,null,null,null,null,1.5,null,null,null,null,null,null,null,null,null,null,null,null,null)
 B.a3y=new A.c_("Registra la tua prima azione per\nvedere l'impatto ambientale!",null,B.a0q,B.cr,null,null,null,null,null)
-B.Qm=s([B.Me,B.ev,B.a3y],t.p)
-B.Ju=new A.ul(B.au,B.u,B.w,B.F,null,B.bL,null,0,B.Qm,null)
+B.Ql=s([B.Me,B.ev,B.a3y],t.p)
+B.Ju=new A.ul(B.au,B.u,B.w,B.F,null,B.bL,null,0,B.Ql,null)
 B.TS=new A.bs(B.hH,B.Ju,null)
 B.bX=new A.PC(0,"fill")
 B.TT=new A.PD(0,"fill")
@@ -101240,9 +101240,9 @@ B.WO=new A.f4([B.Wv,B.Ws],A.a6("f4<jE>"))
 B.AV=new A.f4([B.ah,B.aV,B.bY,B.b3,B.bl],t.Lu)
 B.J7=new A.z(0.23529411764705882,0,0,0,B.e)
 B.EK=new A.bm(0.5,B.O,B.J7,B.lL,10)
-B.Pw=s([B.EK],t.E)
+B.Pv=s([B.EK],t.E)
 B.VS=new A.kF(B.nv,B.n)
-B.WP=new A.i5(null,null,null,B.Pw,B.VS)
+B.WP=new A.i5(null,null,null,B.Pv,B.VS)
 B.AW=new A.aj(B.lm,!1,!1,!1,!0,B.m)
 B.WQ=new A.aj(B.qt,!0,!1,!1,!1,B.m)
 B.ba=new A.Bs(1,"locked")
